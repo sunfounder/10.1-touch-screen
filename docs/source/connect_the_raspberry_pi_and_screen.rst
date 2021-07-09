@@ -1,0 +1,66 @@
+Connect the Raspberry Pi and Screen
+======================================
+
+**Step1**
+
+Fix the Raspberry Pi (or other boards) on the screen back case. There are a vertical slot and a horizontal one on the back of the screen, so you can fix boards with different sizes by moving the nuts and 2.5*6 standoffs with the small wrench.
+
+.. image:: img/inch5.png
+
+**Step2**
+
+Fix the Raspberry Pi (or other boards) on the screen back case. There are a vertical slot and a horizontal one on the back of the screen, so you can fix boards with different sizes by moving the nuts and 2.5*6 standoffs with the small wrench.
+
+.. image:: img/inch6.png
+
+Insert the two 2.5*22 standoffs into the holes on the back to keep the screen balanced. 
+
+.. image:: img/inch7.png
+
+**Step3**
+
+Connect the HDMI port of the Raspberry Pi and the screen via an HDMI cable. 
+
+.. note::
+    In this kit, 2 types of HDMI cables and 2 types of power cords of Raspberry Pi are provided for Raspberry Pi 3 and Raspberry Pi 4. 
+	
+Pi 4
+
+.. image:: img/inch8.png
+
+pi 3
+
+.. image:: img/inch9.png
+
+**Step 4**
+
+Connect the power port of the Raspberry Pi to the USB port of the main board via a USB cable. 
+
+Pi 4
+
+.. image:: img/inch10.png
+
+Pi 3
+
+.. image:: img/inch11.png
+
+**Step 5**
+
+Connect the USB port of the Raspberry Pi and the screen with a 4-pin USB cable. To prevent the cable from falling off, use tape to fix it.
+
+.. note::
+    In the following assembly steps, the method of Raspberry Pi 3 is the same as that of Raspberry Pi 4, so we take Raspberry Pi 4 as an example to introduce. 
+	
+.. image:: img/inch12.png
+
+**Step 6**
+
+Connect the power cable of the supply to power the main board of the screen. 
+
+.. image:: img/inch13.png
+
+**Step 7**
+
+Then power it on and the **boot screen** will appear. 
+
+.. image:: img/inch14.png
