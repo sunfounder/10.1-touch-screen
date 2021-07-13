@@ -11,6 +11,7 @@
     setting_for_raspberry_pi
     using_as_extension_screen_for_pc
     3D_printed_touch_screen_support
+    faq
 	
 	
 Copyright Notice
