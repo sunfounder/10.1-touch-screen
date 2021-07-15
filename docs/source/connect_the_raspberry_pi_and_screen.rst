@@ -9,7 +9,7 @@ Fix the Raspberry Pi (or other boards) on the screen back case. There are a vert
 
 **Step2**
 
-Fix the Raspberry Pi (or other boards) on the screen back case. There are a vertical slot and a horizontal one on the back of the screen, so you can fix boards with different sizes by moving the nuts and 2.5*6 standoffs with the small wrench.
+If you want to use a Raspberry Pi with the screen, then you don't need to adjust the standoffs since they are preset for it. Just place the Raspberry Pi on the plate and fasten them with 2.5*14.4 standoffs. 
 
 .. image:: img/inch6.png
 

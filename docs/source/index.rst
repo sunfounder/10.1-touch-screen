@@ -1,16 +1,29 @@
+TS-10 10.1-inch Touch Screen
+==================================
 
-.. image:: img/inch00.png
+* **Resolution:** 1280x800
+* **Power:** DC 12V/1.5A
+* **Consumption:** 4W
+* **LCD Type:** IPS
+* **Capactive:**
+* **Capactive Touch**
+* **5-point Touch Screen**
+
+SunFounder 10.1'' IPS monitor is a 5-point capacitive touch screen with a resolution of 1280x800, bringing you perfect visual experience. It works with various operating systems including Raspbian, Ubuntu, Ubuntu Mate, Windows, Android, and Chrome OS (you may need an USB extension cable). 
+
+.. image:: img/inch1.png
+
+
 
 .. toctree::
     :maxdepth: 2
 
-    introduction
     hardware_description
-    install_the_system_to_tf_card
+    install_the_rpi_os
     connect_the_raspberry_pi_and_screen
     setting_for_raspberry_pi
     using_as_extension_screen_for_pc
-    3D_printed_touch_screen_support
+    3d_print_support
     faq
 	
 	
