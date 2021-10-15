@@ -26,6 +26,6 @@ Power: Short press to switch ON/OFF(go into the sleep mode) the screen. Long pre
 * V+: Volume up.
 * V-: Volume down.
 
-On one side of the main board there are ports of HDMI input, 12V power input, and 5V/3A USB power output.
+On one side of the main board there are ports of HDMI input, 12V power input, and 5V/3A USB power output. Also equipped with a 4pin PH2.0 speaker connector.
 
-.. image:: img/inch4.png
+.. image:: img/inch4.jpg

@@ -13,11 +13,21 @@ If you want to use a Raspberry Pi with the screen, then you don't need to adjust
 
 .. image:: img/inch6.png
 
+
+Of course you also adjust the position of the standoffs to mount other boards.
+
+.. image:: img/4888.jpg
+.. image:: img/5616.jpg
+.. image:: img/48958.jpg
+.. image:: img/495456.jpg
+
+**Step3**
+
 Insert the two 2.5*22 standoffs into the holes on the back to keep the screen balanced. 
 
 .. image:: img/inch7.png
 
-**Step3**
+**Step4**
 
 Connect the HDMI port of the Raspberry Pi and the screen via an HDMI cable. 
 
@@ -32,7 +42,7 @@ pi 3
 
 .. image:: img/inch9.png
 
-**Step 4**
+**Step 5**
 
 Connect the power port of the Raspberry Pi to the USB port of the main board via a USB cable. 
 
@@ -44,7 +54,7 @@ Pi 3
 
 .. image:: img/inch11.png
 
-**Step 5**
+**Step 6**
 
 Connect the USB port of the Raspberry Pi and the screen with a 4-pin USB cable. To prevent the cable from falling off, use tape to fix it.
 
@@ -53,13 +63,13 @@ Connect the USB port of the Raspberry Pi and the screen with a 4-pin USB cable. 
 	
 .. image:: img/inch12.png
 
-**Step 6**
+**Step 7**
 
 Connect the power cable of the supply to power the main board of the screen. 
 
 .. image:: img/inch13.png
 
-**Step 7**
+**Step 8**
 
 Then power it on and the **boot screen** will appear. 
 

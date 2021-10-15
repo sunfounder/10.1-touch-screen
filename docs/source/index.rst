@@ -7,9 +7,9 @@ SunFounder TS-10 10.1-inch Touch Screen
 * **LCD Type:** IPS
 * **Capactive:**
 * **Capactive Touch**
-* **5-point Touch Screen**
+* **10-point Touch Screen**
 
-SunFounder 10.1'' IPS monitor is a 5-point capacitive touch screen with a resolution of 1280x800, bringing you perfect visual experience. It works with various operating systems including Raspbian, Ubuntu, Ubuntu Mate, Windows, Android, and Chrome OS (you may need an USB extension cable). 
+SunFounder TS-10 10.1-inch Touch Screen is a 10-point capacitive touch screen with a resolution of 1280x800, bringing you perfect visual experience. It works with various operating systems including Raspbian, Ubuntu, Ubuntu Mate, Windows, Android, and Chrome OS (you may need an USB extension cable). 
 
 .. image:: img/inch1.png
 
