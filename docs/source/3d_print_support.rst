@@ -1,4 +1,4 @@
-3D-printed Touch Screen Support
+3D-PRINTED SUPPORT
 ==================================
 
 If you need to place the touch screen more conveniently, you can use a 3D printer to print a support. 

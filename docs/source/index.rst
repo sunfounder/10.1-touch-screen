@@ -1,5 +1,5 @@
-TS-10 10.1-inch Touch Screen
-==================================
+SunFounder TS-10 10.1-inch Touch Screen
+===============================================
 
 * **Resolution:** 1280x800
 * **Power:** DC 12V/1.5A
@@ -16,13 +16,14 @@ SunFounder 10.1'' IPS monitor is a 5-point capacitive touch screen with a resolu
 
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
 
     hardware_description
-    install_the_rpi_os
-    connect_the_raspberry_pi_and_screen
-    setting_for_raspberry_pi
-    using_as_extension_screen_for_pc
+    install_the_os
+    assembling
+    quick_user_guide
+    projects_and_activities
+    appendix/appendix
     3d_print_support
     faq
 	

@@ -1,4 +1,4 @@
-Hardware Description
+HARDWARE DESCRIPTION
 =======================
 
 **LED Indicators**
@@ -19,7 +19,7 @@ Buttons on the main board and their functions:
 
 .. image:: img/inch3.png
 
-Power: Short press to switch ON/OFF(go into the sleep mode) the screen.Long press to power ON/OFF the device(Raspberry Pi).
+Power: Short press to switch ON/OFF(go into the sleep mode) the screen. Long press to power ON/OFF the device(Raspberry Pi).
 
 * B+: Increase screen brightness.
 * B-: Reduce screen brightness.
