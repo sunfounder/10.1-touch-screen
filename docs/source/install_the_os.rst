@@ -34,17 +34,23 @@ Insert the Micro SD card into the computer or laptop's SD card slot. If the comp
 ..     * The computer or laptop will need to be connected to the internet during the first time the Operating System is installed.
 
 ..     * After the first installation, a copy of the Operating System installed from the Imager will be stored on the computer or laptop, and will be available for future use, even while offline (Location of lastdownload.cache will be here: ``C:/Users/<username>/AppData/Local/Raspberry Pi/Imager/cache``). The next time the Imager software launches, it will display “Released: <date>, Cached on your computer”.
-    
-Download the `raspios_armhf-2020-05-28 <https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2021-05-28/2021-05-07-raspios-buster-armhf.zip>`_ image and select it in Raspberry Pi Imager.
-
-.. image:: img/otherOS.png
-    :align: center
-
-.. warning::
-    Raspberry Pi OS has major changes after the 2021-05-28 version, which may cause some functions to be unavailable. Please do not use the latest version for now.
-
 
 .. mark
+
+.. warning::
+
+    Upgrading the Raspberry Pi OS to **Debian Bullseye** will cause some features to not work, so it is recommended to continue using the **Debian Buster** version.
+
+In the Raspberry Pi Imager, click **CHOOSE OS** -> **Raspberry Pi OS(other)**.
+
+.. image:: img/3d33.png
+    :align: center
+
+Scroll down to the end of the newly opened page and you will see **Raspberry Pi OS(Legacy)** and **Raspberry Pi OS Lite(Legacy)**, these are security updates for Debian Buster, the difference between them is with or without the desktop.
+It is recommended to install **Raspberry Pi OS(Legacy)**, the system with the desktop.
+
+.. image:: img/3d34.png
+    :align: center
 
 
 
@@ -54,21 +60,21 @@ Select the SD card you are using.
   :width: 550
   :align: center
 
-Press ``Ctrl+Shift+X`` to open the Advanced options page to enable SSH and configure wifi, these 2 items must be set, the others depend on your choice. You can choose to always use this image customization options.
+.. Press ``Ctrl+Shift+X`` to open the Advanced options page to enable SSH and configure wifi, these 2 items must be set, the others depend on your choice. You can choose to always use this image customization options.
 
-.. image:: img/3d5.png
-  :width: 550
-  :align: center
+.. .. image:: img/3d5.png
+..   :width: 550
+..   :align: center
 
-Scroll down to configure the WiFi settings, and then click **SAVE**.
+.. Scroll down to configure the WiFi settings, and then click **SAVE**.
 
-.. note::
+.. .. note::
 
-  The entry for the **WiFi country** should be set to a designated two-letter ISO/IEC alpha2 code designated to the country. Please reference the following link: `https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`_.
+..   The entry for the **WiFi country** should be set to a designated two-letter ISO/IEC alpha2 code designated to the country. Please reference the following link: `https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`_.
 
-.. image:: img/3d6.png
-  :width: 550
-  :align: center
+.. .. image:: img/3d6.png
+..   :width: 550
+..   :align: center
 
 Click the **WRITE** button.
 

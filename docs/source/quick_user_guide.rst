@@ -1,7 +1,7 @@
 QUICK USER GUIDE
 ===================
 
-This chapter includes flashing the Raspberry Pi image, installing the virtual keyboard, setting the right-click function and calibrating the rotating screen function.
+This chapter includes installing the Raspberry Pi OS, installing the virtual keyboard, setting the right-click function and calibrating the rotating screen function.
 
 
 
