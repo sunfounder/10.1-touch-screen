@@ -1,6 +1,27 @@
 HARDWARE DESCRIPTION
 =======================
 
+
+.. image:: img/back.jpg
+
+* Main Board: It is mounted on top to control the display.
+* Control Board: It is a cross slot structure with one side movable, so you can mount different size of control board.
+* Touch Module: This is the module used to let the display get the touch function, you need to connect it to the USB port of the control board through the USB cable provided by us.
+
+
+**Touch Module**
+
+.. image:: img/touch_module.jpg
+
+There are two types of 4pin connector on the touch module, with the pin serial number shown on the figure.
+
+Here are the definitions of the pins:
+
+* Pin 1: VDD(5V)
+* Pin 2: D-
+* Pin 3: D+
+* Pin 4：GND
+
 **LED Indicators**
 
 .. image:: img/inch2.png
@@ -26,6 +47,8 @@ Power: Short press to switch ON/OFF(go into the sleep mode) the screen. Long pre
 * V+: Volume up.
 * V-: Volume down.
 
-On one side of the main board there are ports of HDMI input, 12V power input, and 5V/3A USB power output. Also equipped with a 4pin PH2.0 speaker connector.
+**Interfaces**
 
-.. image:: img/inch4.jpg
+On one side of the main board there are ports of HDMI input, 12V power input, and 5V/3A USB power output. Also equipped with a 4pin PH2.0 speaker port.
+
+.. image:: img/main_board.jpg
