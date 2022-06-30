@@ -10,6 +10,7 @@ This chapter includes installing the Raspberry Pi OS, installing the virtual key
     adjust_the_resolution
     install_virtual_keyboard
     right_click
+    adjust_rotate
 
 
 
