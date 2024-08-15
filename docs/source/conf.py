@@ -101,4 +101,12 @@ rst_epilog = """
 
     <a href="https://www.sunfounder.com/blogs/news/raspberry-pi-system-monitor-for-pc-enhancing-performance-and-remote-monitoring" target="_blank">PC monitoring device</a>
 
+.. |link_Touch_Screen| raw:: html
+
+    <a href="https://www.sunfounder.com/products/10inch-touchscreen-for-raspberrypi?_pos=11&_sid=e6f74f953&_ss=r" target="_blank">Purchase Link for TS-10 10.1-inch Touch Screen</a>
+
+.. |link_10.1inch_Touch_Screen| raw:: html
+
+    <a href="https://www.sunfounder.com/products/10inch-touchscreen-for-raspberrypi?_pos=11&_sid=e6f74f953&_ss=r" target="_blank">TS-10 10.1-inch Touch Screen</a>
+
 """
