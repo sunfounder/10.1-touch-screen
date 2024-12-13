@@ -15,58 +15,55 @@
 FAQ
 =============
 
-Black border appears on the display?
---------------------------------------------------
+.. Black border appears on the display?
+.. --------------------------------------------------
 
-    * Select the correct resolution
+.. * **Select the correct resolution**
     
-    Click the **Raspberry Pi icon** -> **Preferences** -> **Screen Configuration**.
+..   1. Click the **Raspberry Pi icon** -> **Preferences** -> **Screen Configuration**.
+  
+..      .. image:: img/quick_rpi_config.png
+  
+..   2. In the configuration menu, click the triangle icon at the bottom left corner, select **HDMI-A-1** -> **Resolution**, and choose your desired resolution.
+  
+..      .. image:: img/quick_rpi_resolution.png
+  
+..   3. Finally, click **Apply** -> **OK** to save and apply the changes.
+  
+..      .. image:: img/quick_rpi_apply.png
 
-    .. image:: img/screen_config.png
+.. .. * Disable Overscan/Underscan
 
-    Then choose **Configure** -> **Screens** -> **HDMI-1** -> **Resolution** -> choose the 1280x800.
-
-    .. image:: img/resolution.png
-
-    After that you need to click the tick icon to save your configure.
-
-    .. image:: img/hdmi1.png
-
-    * Disable Overscan/Underscan
-
-    When using Raspberry Pi Imager to install a system on a Micro SD, you can check the Disable overscan.
-
-    .. image:: img/oversccan.png
-
-    Or when you get to the desktop, click the **Raspberry Pi icon** -> **Preferences** -> **Raspberry Pi Configuration**.
-    
-    .. image:: img/screen_config.png
-
-    Disable Overscan in the Display page.
-
-    .. image:: img/disable_overscan.png
+.. ..   When using Raspberry Pi Imager to install a system on a Micro SD, you can check the Disable overscan.
+  
+.. ..   .. image:: img/oversccan.png  
+.. ..   Or when you get to the desktop, click the **Raspberry Pi icon** -> **Preferences** -> **Raspberry Pi Configuration**.
+  
+.. ..   .. image:: img/screen_config.png  
+.. ..   Disable Overscan in the Display page.  
+.. ..   .. image:: img/disable_overscan.png
 
 
 
 The screen shows No Signal after the device is turned on?
 -------------------------------------------------------------
 
-    * Please check if all the cables are plugged in properly.
-    * Check if the control board (Raspberry Pi) is on.
-    * Check if the SD card has the correct system installed.
+* Please check if all the cables are plugged in properly.
+* Check if the control board (Raspberry Pi) is on.
+* Check if the SD card has the correct system installed.
 
 Can't touch?
 -------------
 
-    * Make sure the touch module is connected to the control board (or device) via the USB touch cable.
-    * Check if the touch module is damaged, if so please contact us.
+* Make sure the touch module is connected to the control board (or device) via the USB touch cable.
+* Check if the touch module is damaged, if so please contact us.
 
 Use of the touch pen
 -------------------------
 
-    * This display works with passive capacitive stylus, while active capacitive does not.
+* This display works with passive capacitive stylus, while active capacitive does not.
 
 The LCD display cannot be turned on without connecting other devices.
 -----------------------------------------------------------------------
 
-    * This is a normal phenomenon, please use it after connecting Raspberry Pi or other devices.
+* This is a normal phenomenon, please use it after connecting Raspberry Pi or other devices.

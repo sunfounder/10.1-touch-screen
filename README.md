@@ -15,11 +15,11 @@ Quick Links:
 
 SunFounder TS-10 10.1-inch Touch Screen is a 10-point capacitive touch screen with a resolution of 1280x800, bringing you perfect visual experience. It works with various operating systems including Raspbian, Ubuntu, Ubuntu Mate, Windows, Android, and Chrome OS (you may need an USB extension cable). 
 
-
-
-
 <a id="update"></a>
 ## Update:
+2024-12-13:
+- Update settings for the on-screen keyboard, resolution, and orientation based on the latest Bookworm system.
+
 2023-11-24:
 - Add tips about installing the older version of the Bullseye system.
 

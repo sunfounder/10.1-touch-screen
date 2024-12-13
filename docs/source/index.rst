@@ -56,10 +56,11 @@ The steps are as follows.
 .. toctree::
     :maxdepth: 3
 
+    About This Kit <self>
     hardware_description
     install_the_os
     assembling
-    quick_user_guide
+    resolution_orientation
     projects_and_activities
     appendix/appendix
     3d_print_support
