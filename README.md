@@ -17,6 +17,9 @@ SunFounder TS-10 10.1-inch Touch Screen is a 10-point capacitive touch screen wi
 
 <a id="update"></a>
 ## Update:
+2024-12-16:
+- Update to a version compatible with Pi 5.
+
 2024-12-13:
 - Update settings for the on-screen keyboard, resolution, and orientation based on the latest Bookworm system.
 

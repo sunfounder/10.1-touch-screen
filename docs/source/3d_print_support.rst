@@ -17,7 +17,7 @@
 
 If you need to place the touch screen more conveniently, you can use a 3D printer to print a support. 
 
-The 3D printer file: :download:`Stand <download/Stand.zip>`
+* :download:`3D Printer File <_static/zip/sunfounder_10.1_screen_3d_print_case.zip>`
 
 Installation process are shown as follow.
 

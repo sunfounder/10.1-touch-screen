@@ -16,7 +16,9 @@ HARDWARE DESCRIPTION
 =======================
 
 
-.. image:: img/back.jpg
+.. image:: img/hardware_back.png
+    :width: 600
+    :align: center
 
 * Main Board: It is mounted on top to control the display.
 * Control Board: It is a cross slot structure with one side movable, so you can mount different size of control board.
@@ -25,7 +27,9 @@ HARDWARE DESCRIPTION
 
 **Touch Module**
 
-.. image:: img/touch_module.jpg
+.. image:: img/hardware_touch_module.png
+    :width: 500
+    :align: center
 
 There are two types of 4pin connector on the touch module, with the pin serial number shown on the figure.
 
@@ -34,35 +38,37 @@ Here are the definitions of the pins:
 * Pin 1: VDD(5V)
 * Pin 2: D-
 * Pin 3: D+
-* Pin 4：GND
+* Pin 4: GND
 
 **LED Indicators**
 
-.. image:: img/inch2.png
+.. image:: img/hardware_leds.png
+    :width: 400
+    :align: center
 
 There are 2 LED indicators on the main board of the screen to show different signals: 
 
-* Power on the screen, after the green LED flashes one time, it lights on continuously; and the red LED lights on immediately.
-* If there's no HDMI signal, only the red LED will turn on.
+* Power on the screen, after the Signal LED flashes one time, it lights on continuously; and the Power LED lights on immediately.
+* If there's no HDMI signal, only the Power LED will turn on.
 * If there's an HDMI signal, these two LEDs will turn on.
-* If you press the power button, the green LED will turn off and the red LED will keep turning on.
-* If you remove the power cord, both of the two LEDs will turn off.
+* If you press the power button, the Signal LED will turn off and the Power LED will keep turning on.
+* If you remove the power adapter, both of the two LEDs will turn off.
 
 **Buttons**
 
 Buttons on the main board and their functions: 
 
-.. image:: img/inch3.png
+.. image:: img/hardware_buttons.png
+    :width: 500
+    :align: center
 
-Power: Short press to switch ON/OFF(go into the sleep mode) the screen. Long press to power ON/OFF the device(Raspberry Pi).
-
-* B+: Increase screen brightness.
-* B-: Reduce screen brightness.
-* V+: Volume up.
-* V-: Volume down.
+.. image:: img/hardware_buttons_func.png
+    :align: center
 
 **Interfaces**
 
-On one side of the main board there are ports of HDMI input, 12V power input, and 5V/3A USB power output. Also equipped with a 4pin PH2.0 speaker port.
+On one side of the Driver Board there are ports of HDMI input, 12V power input, and 5V/3A USB power output and Speaker Port. 
 
-.. image:: img/main_board.jpg
+.. image:: img/hardware_interfaces.png
+    :width: 400
+    :align: center

@@ -28,7 +28,9 @@ SunFounder |link_10.1inch_Touch_Screen|
 SunFounder |link_10.1inch_Touch_Screen| is a 10-point capacitive touch screen with a resolution of 1280x800, bringing you perfect visual experience. It works with various operating systems including Raspbian, Ubuntu, Ubuntu Mate, Windows, Android, and Chrome OS (you may need an USB extension cable). Ideal for applications like retro gaming, industrial control, as a secondary monitor, in home automation, for 3D printing control, and as a |link_pc_monitor|.
 
 
-.. image:: img/inch1.png
+.. image:: img/ts-10-pi5.png
+    :width: 600
+    :align: center
 
 
 **About the display language**
@@ -64,6 +66,7 @@ The steps are as follows.
     projects_and_activities
     appendix/appendix
     3d_print_support
+    diy_stand_standoff
     faq
 	
 	

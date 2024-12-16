@@ -29,10 +29,12 @@ Using an On-Screen Keyboard
 Raspberry Pi OS Bookworm and later include the **Squeekboard** on-screen keyboard by default. This keyboard automatically appears when text input is needed and hides when it's not. For applications that do not support text entry detection, you can manually toggle the keyboard by clicking the keyboard icon at the right end of the taskbar.
 
 .. image:: img/quick_right_keyboard.png
+   :width: 600
 
 Alternatively, you can configure the on-screen keyboard to always show or hide via the **Display** tab in **Raspberry Pi Configuration** or the **Display** section of ``raspi-config``.
 
 .. image:: img/quick_onboard_keyboard.png
+   :width: 600
 
 .. note::
 
@@ -44,14 +46,17 @@ Setting the Screen Resolution
 1. Click the **Raspberry Pi icon** -> **Preferences** -> **Screen Configuration**.
 
    .. image:: img/quick_rpi_config.png
+      :width: 600
 
 2. In the configuration menu, click the triangle icon at the bottom left corner, select **HDMI-A-1** -> **Resolution**, and choose your desired resolution.
 
    .. image:: img/quick_rpi_resolution.png
+      :width: 600
 
 3. Finally, click **Apply** -> **OK** to save and apply the changes.
 
    .. image:: img/quick_rpi_apply.png
+      :width: 600
 
 Changing Screen Orientation
 --------------------------------
@@ -61,11 +66,14 @@ If you need to physically rotate the screen or mount it in a specific position:
 1. Click the **Raspberry Pi icon** -> **Preferences** -> **Screen Configuration**.
 
    .. image:: img/quick_rpi_config.png
+      :width: 600
 
 2. In the layout editor, **right-click** the touch display rectangle (usually labeled HDMI-A-1), select **Orientation**, and choose the desired option.
 
    .. image:: img/quick_rpi_orientation.png
+      :width: 600
 
 3. Click **Apply** -> **OK** to apply the changes.
 
    .. image:: img/quick_rpi_apply.png
+      :width: 600
