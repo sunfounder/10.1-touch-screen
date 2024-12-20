@@ -17,6 +17,10 @@ SunFounder TS-10 10.1-inch Touch Screen is a 10-point capacitive touch screen wi
 
 <a id="update"></a>
 ## Update:
+2024-12-20:
+- update the contents of 3d print case.
+
+
 2024-12-13:
 - Update settings for the on-screen keyboard, resolution, and orientation based on the latest Bookworm system.
 
