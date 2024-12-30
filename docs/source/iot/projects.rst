@@ -27,7 +27,7 @@ Open a Terminal and enter the following command to download them from github.
 
 .. code-block::
 
-    git clone https://github.com/sunfounder/10.1-touch-screen
+    git clone https://github.com/sunfounder/10.1-touch-screen --depth 1
 
 Then copy the codes from the ``iot`` folder to the ``cloud4rpi-raspberrypi-python`` folder.
 
