@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Get Start with Blynk &mdash; SunFounder TS-10 10.1-inch Touch Screen  documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/copybutton.css" type="text/css" />
+      <link rel="stylesheet" href="https://ezblock.cc/readDocFile/custom.css" type="text/css" />
+      <link rel="stylesheet" href="https://ezblock.cc/readDocFile/readTheDoc/src/css/index.css" type="text/css" />
+      <link rel="stylesheet" href="https://ezblock.cc/readDocFile/readTheDoc/src/css/xterm.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/sphinx_highlight.js"></script>
+        <script src="../../_static/clipboard.min.js"></script>
+        <script src="../../_static/copybutton.js"></script>
+        <script src="https://ezblock.cc/readDocFile/custom.js"></script>
+        <script src="https://ezblock.cc/readDocFile/readTheDoc/src/js/ace.js"></script>
+        <script src="https://ezblock.cc/readDocFile/readTheDoc/src/js/ext-language_tools.js"></script>
+        <script src="https://ezblock.cc/readDocFile/readTheDoc/src/js/theme-chrome.js"></script>
+        <script src="https://ezblock.cc/readDocFile/readTheDoc/src/js/mode-python.js"></script>
+        <script src="https://ezblock.cc/readDocFile/readTheDoc/src/js/mode-sh.js"></script>
+        <script src="https://ezblock.cc/readDocFile/readTheDoc/src/js/monokai.js"></script>
+        <script src="https://ezblock.cc/readDocFile/readTheDoc/src/js/xterm.js"></script>
+        <script src="https://ezblock.cc/readDocFile/readTheDoc/src/js/FitAddon.js"></script>
+        <script src="https://ezblock.cc/readDocFile/readTheDoc/src/js/readTheDocIndex.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Smart Light" href="blynk_light.html" />
+    <link rel="prev" title="IoT" href="blynk.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+<nav id="nav-bar">
+  <ul class="nav-bar-items" id="nav-bar-items">
+    <li class="nav-bar-logo">
+      <a href="https://sunfounder.com">
+        <img class="logo-img" src="https://ezblock.cc/readDocFile/sunfounder_LOGO_160x@2x.png"/>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            SunFounder TS-10 10.1-inch Touch Screen
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">About This Kit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../hardware_description.html">HARDWARE DESCRIPTION</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../install_the_os.html">INSTALLING THE OS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../assembling.html">ASSEMBLY INSTRUCTIONS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../resolution_orientation.html">CHANGING SCREEN RESOLUTION OR ORIENTATION</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../projects_and_activities.html">PROJECTS AND ACTIVITIES</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../multimedia_options.html">Multimedia Options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../retro_games_console.html">Retro Games Console</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../3d_printer_monitor.html">3D Printer Monitor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../homeassistant/home_assistant.html">Home Assistant</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="blynk.html">IoT</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Get Start with Blynk</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#configuring-the-blynk">1. Configuring the Blynk</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#edit-dashboard">2. Edit Dashboard</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#install-the-blynk-library">3. Install the Blynk library</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#download-the-example">4. Download the Example</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#run-the-code">5. Run the Code</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="blynk_light.html">Smart Light</a></li>
+<li class="toctree-l3"><a class="reference internal" href="blynk_reed.html">Door Window Sensor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="blynk_motor.html">Smart Fan</a></li>
+<li class="toctree-l3"><a class="reference internal" href="blynk_temp.html">Temperature Recorder</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../gpio_programming.html">GPIO Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../scratch_programming.html">Scratch Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../install_other_os.html">Install Other Systems on Raspberry Pi</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../appendix/appendix.html">APPENDIX</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../3d_print_support.html">3D-PRINTED CASE INSTALLTION GUIDE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../diy_stand_standoff.html">DIY Stand with Standoffs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">SunFounder TS-10 10.1-inch Touch Screen</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../projects_and_activities.html">PROJECTS AND ACTIVITIES</a></li>
+          <li class="breadcrumb-item"><a href="blynk.html">IoT</a></li>
+      <li class="breadcrumb-item active">Get Start with Blynk</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/iot/blynk/blynk_start.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Hello, welcome to the SunFounder Raspberry Pi &amp; Arduino &amp; ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.</p>
+<p><strong>Why Join?</strong></p>
+<ul class="simple">
+<li><p><strong>Expert Support</strong>: Solve post-sale issues and technical challenges with help from our community and team.</p></li>
+<li><p><strong>Learn &amp; Share</strong>: Exchange tips and tutorials to enhance your skills.</p></li>
+<li><p><strong>Exclusive Previews</strong>: Get early access to new product announcements and sneak peeks.</p></li>
+<li><p><strong>Special Discounts</strong>: Enjoy exclusive discounts on our newest products.</p></li>
+<li><p><strong>Festive Promotions and Giveaways</strong>: Take part in giveaways and holiday promotions.</p></li>
+</ul>
+<p>👉 Ready to explore and create with us? Click [<a href="https://bit.ly/raphaelkit" target="_blank">here</a>] and join today!</p>
+</div>
+<section id="get-start-with-blynk">
+<span id="bk-start"></span><h1>Get Start with Blynk<a class="headerlink" href="#get-start-with-blynk" title="Permalink to this heading"></a></h1>
+<p>You will learn how to use Blynk in this project.</p>
+<p>In the event that you trigger widgets on Blynk, your Raspberry Pi will print out their values.</p>
+<p>Follow the steps below, and note that you must do them in order and not skip any chapters.</p>
+<section id="configuring-the-blynk">
+<h2>1. Configuring the Blynk<a class="headerlink" href="#configuring-the-blynk" title="Permalink to this heading"></a></h2>
+<ol class="arabic">
+<li><p>Go to the <a class="reference external" href="https://blynk.io/">BLYNK</a> and click <strong>START FREE</strong>.</p>
+<blockquote>
+<div><img alt="../../_images/sp220607_142551.png" src="../../_images/sp220607_142551.png" />
+</div></blockquote>
+</li>
+<li><p>Fill in your email address to register an account.</p>
+<blockquote>
+<div><img alt="../../_images/sp220607_142807.png" src="../../_images/sp220607_142807.png" />
+</div></blockquote>
+</li>
+<li><p>Go to your email address to complete your account registration.</p>
+<blockquote>
+<div><img alt="../../_images/sp220607_142936.png" src="../../_images/sp220607_142936.png" />
+</div></blockquote>
+</li>
+<li><p>Afterwards, <strong>Blynk Tour</strong> will appear and you can read it to learn the basic information about the Blynk.</p>
+<blockquote>
+<div><img alt="../../_images/sp220607_143244.png" src="../../_images/sp220607_143244.png" />
+</div></blockquote>
+</li>
+<li><p>Next we need to create a template and device, click <strong>Cancel</strong>.</p>
+<blockquote>
+<div><img alt="../../_images/sp220607_143608.png" src="../../_images/sp220607_143608.png" />
+</div></blockquote>
+</li>
+<li><p>Go to Template from the navigation bar.</p>
+<blockquote>
+<div><img alt="../../_images/sp220913_170029.png" src="../../_images/sp220913_170029.png" />
+</div></blockquote>
+</li>
+<li><p>Create New Template</p>
+<blockquote>
+<div><img alt="../../_images/sp220913_170206.png" src="../../_images/sp220913_170206.png" />
+</div></blockquote>
+</li>
+<li><p>Fill in <strong>NAME</strong>, feel free to do so; <strong>HARDWARE</strong> should be <strong>Raspberry Pi</strong>. Then <strong>Done</strong>.</p>
+<blockquote>
+<div><img alt="../../_images/sp220913_170402.png" src="../../_images/sp220913_170402.png" />
+</div></blockquote>
+</li>
+<li><p>You will be redirected to the Info page, just click on save in the top right corner.</p>
+<blockquote>
+<div><img alt="../../_images/sp220913_171202.png" src="../../_images/sp220913_171202.png" />
+</div></blockquote>
+</li>
+<li><p>Go to <strong>Search</strong> page from the navigation bar.</p>
+<blockquote>
+<div><img alt="../../_images/sp220913_172727.png" src="../../_images/sp220913_172727.png" />
+</div></blockquote>
+</li>
+<li><p>Create New Device.</p>
+<blockquote>
+<div><img alt="../../_images/sp220913_173259.png" src="../../_images/sp220913_173259.png" />
+</div></blockquote>
+</li>
+<li><p>From template.</p>
+<blockquote>
+<div><img alt="../../_images/sp220913_173350.png" src="../../_images/sp220913_173350.png" />
+</div></blockquote>
+</li>
+<li><p>Select <strong>TEMPLATE</strong> as the one you just set, <strong>DEVICE NAME</strong> can be customized. Then click Create.</p>
+<blockquote>
+<div><img alt="../../_images/sp220913_173507.png" src="../../_images/sp220913_173507.png" />
+</div></blockquote>
+</li>
+<li><p>You should now see a page like this one, which means that your initial Blynk setup is complete.</p>
+<blockquote>
+<div><img alt="../../_images/sp220913_173950.png" src="../../_images/sp220913_173950.png" />
+</div></blockquote>
+</li>
+</ol>
+</section>
+<section id="edit-dashboard">
+<h2>2. Edit Dashboard<a class="headerlink" href="#edit-dashboard" title="Permalink to this heading"></a></h2>
+<ol class="arabic">
+<li><p>Click on the menu icon in the upper right corner and select edit dashboard.</p>
+<blockquote>
+<div><img alt="../../_images/sp220913_180231.png" src="../../_images/sp220913_180231.png" />
+</div></blockquote>
+</li>
+<li><p>Then drag any CONTROL Widgets you want onto the Dashboard. I dragged a Switch and a Slider.</p>
+<blockquote>
+<div><img alt="../../_images/sp220913_180725.png" src="../../_images/sp220913_180725.png" />
+</div></blockquote>
+</li>
+<li><p>Tap the setting icon on the widget.</p>
+<blockquote>
+<div><img alt="../../_images/sp220913_180806.png" src="../../_images/sp220913_180806.png" />
+</div></blockquote>
+</li>
+<li><p>Create Datastream, select Virtual Pin。</p>
+<blockquote>
+<div><img alt="../../_images/sp220913_180906.png" src="../../_images/sp220913_180906.png" />
+</div></blockquote>
+</li>
+<li><p>Complete the datastream setup. Here is the datastream created for Switch, so <strong>DATA TYPE</strong> select <code class="docutils literal notranslate"><span class="pre">Interger</span></code>, <strong>MIN</strong> and <strong>MAX</strong> set to <code class="docutils literal notranslate"><span class="pre">0</span></code> and <code class="docutils literal notranslate"><span class="pre">1</span></code>. Create and then Save.</p>
+<blockquote>
+<div><img alt="../../_images/sp220913_181113.png" src="../../_images/sp220913_181113.png" />
+</div></blockquote>
+</li>
+<li><p>Use the same steps to create a Datastream for the slider widget, and again, modify <strong>DATA TYPE</strong>, <strong>MIN</strong> and <strong>MAX</strong> to what you need.</p>
+<blockquote>
+<div><img alt="../../_images/sp220913_182042.png" src="../../_images/sp220913_182042.png" />
+</div></blockquote>
+</li>
+<li><p>When finished, click Save And Apply at the top right.</p>
+<blockquote>
+<div><img alt="../../_images/sp220913_182300.png" src="../../_images/sp220913_182300.png" />
+</div></blockquote>
+</li>
+</ol>
+</section>
+<section id="install-the-blynk-library">
+<h2>3. Install the Blynk library<a class="headerlink" href="#install-the-blynk-library" title="Permalink to this heading"></a></h2>
+<p>Run the following command to install.</p>
+<run></run><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">pi</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">vshymanskyy</span><span class="o">/</span><span class="n">blynk</span><span class="o">-</span><span class="n">library</span><span class="o">-</span><span class="n">python</span><span class="o">.</span><span class="n">git</span>
+<span class="n">cd</span> <span class="n">blynk</span><span class="o">-</span><span class="n">library</span><span class="o">-</span><span class="n">python</span>
+<span class="n">sudo</span> <span class="n">python3</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span>
+</pre></div>
+</div>
+</section>
+<section id="download-the-example">
+<h2>4. Download the Example<a class="headerlink" href="#download-the-example" title="Permalink to this heading"></a></h2>
+<p>We have provided some examples, please run the following command to download them.</p>
+<run></run><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">pi</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">sunfounder</span><span class="o">/</span><span class="n">blynk</span><span class="o">-</span><span class="n">raspberrypi</span><span class="o">-</span><span class="n">python</span><span class="o">.</span><span class="n">git</span>
+</pre></div>
+</div>
+</section>
+<section id="run-the-code">
+<h2>5. Run the Code<a class="headerlink" href="#run-the-code" title="Permalink to this heading"></a></h2>
+<ol class="arabic">
+<li><p>Go to Blynk’s Device Info page, you will see some information under <strong>FIRMWARE CONFIGURATION</strong>, you need to copy <strong>BLYNK_AUTH_TOKEN</strong> down.</p>
+<blockquote>
+<div><img alt="../../_images/sp220913_182456.png" src="../../_images/sp220913_182456.png" />
+</div></blockquote>
+</li>
+<li><p>Edit the code.</p></li>
+</ol>
+<run></run><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">pi</span><span class="o">/</span><span class="n">blynk</span><span class="o">-</span><span class="n">raspberrypi</span><span class="o">-</span><span class="n">python</span>
+<span class="n">sudo</span> <span class="n">nano</span> <span class="n">blynk_start</span><span class="o">.</span><span class="n">py</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="3">
+<li><p>Find the line below and past your <code class="docutils literal notranslate"><span class="pre">BLYNK_AUTH_TOKEN</span></code>.</p></li>
+</ol>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">BLYNK_AUTH</span> <span class="o">=</span> <span class="s1">&#39;YourAuthToken&#39;</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="4">
+<li><p>Run the code.</p></li>
+</ol>
+<run></run><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">python3</span> <span class="n">blynk_start</span><span class="o">.</span><span class="n">py</span>
+</pre></div>
+</div>
+<ol class="arabic" start="5">
+<li><p>Go to Blynk, and operate the widget on Dashboard.</p>
+<blockquote>
+<div><img alt="../../_images/sp220913_183529.png" src="../../_images/sp220913_183529.png" />
+</div></blockquote>
+</li>
+<li><p>Now you will be able to see your actions on the terminal.</p></li>
+</ol>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span>
+   <span class="n">___</span>  <span class="n">__</span>          <span class="n">__</span>
+  <span class="o">/</span> <span class="n">_</span> <span class="p">)</span><span class="o">/</span> <span class="o">/</span><span class="n">_</span> <span class="n">_____</span>  <span class="o">/</span> <span class="o">/</span><span class="n">__</span>
+ <span class="o">/</span> <span class="n">_</span>  <span class="o">/</span> <span class="o">/</span> <span class="o">//</span> <span class="o">/</span> <span class="n">_</span> \<span class="o">/</span>  <span class="s1">&#39;_/</span>
+<span class="o">/</span><span class="n">____</span><span class="o">/</span><span class="n">_</span><span class="o">/</span>\<span class="n">_</span><span class="p">,</span> <span class="o">/</span><span class="n">_</span><span class="o">//</span><span class="n">_</span><span class="o">/</span><span class="n">_</span><span class="o">/</span>\<span class="n">_</span>\
+        <span class="o">/</span><span class="n">___</span><span class="o">/</span> <span class="k">for</span> <span class="n">Python</span> <span class="n">v1</span><span class="mf">.0.0</span> <span class="p">(</span><span class="n">linux</span><span class="p">)</span>
+
+<span class="n">Connecting</span> <span class="n">to</span> <span class="n">blynk</span><span class="o">.</span><span class="n">cloud</span><span class="p">:</span><span class="mf">443.</span><span class="o">..</span>
+<span class="n">Blynk</span> <span class="n">ready</span><span class="o">.</span> <span class="n">Ping</span><span class="p">:</span> <span class="mi">142</span> <span class="n">ms</span>
+<span class="n">V0</span> <span class="n">value</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;1&#39;</span><span class="p">]</span>
+<span class="n">V0</span> <span class="n">value</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;0&#39;</span><span class="p">]</span>
+<span class="n">V1</span> <span class="n">value</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;3&#39;</span><span class="p">]</span>
+<span class="n">V1</span> <span class="n">value</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;8&#39;</span><span class="p">]</span>
+<span class="n">V0</span> <span class="n">value</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;1&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="blynk.html" class="btn btn-neutral float-left" title="IoT" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="blynk_light.html" class="btn btn-neutral float-right" title="Smart Light" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, SunFounder.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

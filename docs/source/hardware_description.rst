@@ -20,10 +20,9 @@ HARDWARE DESCRIPTION
     :width: 600
     :align: center
 
-* Main Board: It is mounted on top to control the display.
-* Control Board: It is a cross slot structure with one side movable, so you can mount different size of control board.
-* Touch Module: This is the module used to let the display get the touch function, you need to connect it to the USB port of the control board through the USB cable provided by us.
-
+* **Main Board**: It is mounted on top to control the display.
+* **Control Board**: It is a cross slot structure with one side movable, so you can mount different size of control board.
+* **Touch Module**: This is the module used to let the display get the touch function, you need to connect it to the USB port of the control board through the USB cable provided by us.
 
 **Touch Module**
 
@@ -67,7 +66,7 @@ Buttons on the main board and their functions:
 
 **Interfaces**
 
-On one side of the Driver Board there are ports of HDMI input, 12V power input, and 5V/3A USB power output and Speaker Port. 
+On one side of the Driver Board there are ports of HDMI input, 12V power input, and 5V/5A USB power output and Speaker Port. 
 
 .. image:: img/hardware_interfaces.png
     :width: 400
