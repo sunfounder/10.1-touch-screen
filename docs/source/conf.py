@@ -23,6 +23,12 @@ project = 'SunFounder TS-10 10.1-inch Touch Screen'
 copyright = f'{time.localtime().tm_year}, SunFounder'  
 author = 'www.sunfounder.com'
 
+# -- sphinx_rtd_theme Theme options -----------------------------------------------------
+html_theme_options = {
+    'flyout_display': 'attached',
+    'version_selector': False,
+    'language_selector': False,
+}
 
 # -- General configuration ---------------------------------------------------
 
@@ -32,13 +38,8 @@ author = 'www.sunfounder.com'
 extensions = [
     'sphinx.ext.autosectionlabel',
     'sphinx_copybutton',
-    'sphinx_rtd_theme',
+    'sphinx_rtd_theme'
 ]
-
-# -- sphinx_rtd_theme Theme options -----------------------------------------------------
-html_theme_options = {
-    'flyout_display': 'attached'
-}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
