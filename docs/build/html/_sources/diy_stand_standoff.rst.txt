@@ -1,4 +1,4 @@
-DIY Stand with Standoffs
+DIY STAND WITH STANDOFFS
 ==================================
 
 The kit includes two extra **M2.5*18 standoffs** and two **M2.5*30 standoffs**, which can be creatively used to build a DIY stand for the display. Follow the steps below to assemble the stand:

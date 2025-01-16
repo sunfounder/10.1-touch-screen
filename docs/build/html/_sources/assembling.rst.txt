@@ -15,6 +15,12 @@
 ASSEMBLY INSTRUCTIONS
 ======================================
 
+Below is the TS-10 touchscreen components list. It is recommended that you verify all parts are intact before assembly.
+
+.. image:: img/packing_list.jpg
+    :width: 600
+    :align: center
+
 **Step 1: Mount the Raspberry Pi or Other Boards**
 
 Secure the Raspberry Pi (or other compatible boards) onto the back case of the screen. There are two slots provided: a vertical slot and a horizontal slot. These slots are designed to accommodate boards of different sizes. Adjust the nuts and standoffs using the provided small wrench to ensure a snug fit for your board.

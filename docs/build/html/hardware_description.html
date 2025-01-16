@@ -70,14 +70,18 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="index.html">About This Kit</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">HARDWARE DESCRIPTION</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">HARDWARE DESCRIPTION</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#specifications">Specifications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#hardware-overview">Hardware Overview</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="install_the_os.html">INSTALLING THE OS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="assembling.html">ASSEMBLY INSTRUCTIONS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="resolution_orientation.html">CHANGING SCREEN RESOLUTION OR ORIENTATION</a></li>
 <li class="toctree-l1"><a class="reference internal" href="projects_and_activities.html">PROJECTS AND ACTIVITIES</a></li>
 <li class="toctree-l1"><a class="reference internal" href="appendix/appendix.html">APPENDIX</a></li>
 <li class="toctree-l1"><a class="reference internal" href="3d_print_support.html">3D-PRINTED CASE INSTALLTION GUIDE</a></li>
-<li class="toctree-l1"><a class="reference internal" href="diy_stand_standoff.html">DIY Stand with Standoffs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="diy_stand_standoff.html">DIY STAND WITH STANDOFFS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="faq.html">FAQ</a></li>
 </ul>
 
@@ -120,6 +124,51 @@
 </div>
 <section id="hardware-description">
 <h1>HARDWARE DESCRIPTION<a class="headerlink" href="#hardware-description" title="Permalink to this heading"></a></h1>
+<p>Below is the dimension diagram for the TS-10 touchscreen.</p>
+<a class="reference internal image-reference" href="_images/ts10_size.png"><img alt="_images/ts10_size.png" src="_images/ts10_size.png" style="width: 800px;" /></a>
+<section id="specifications">
+<h2>Specifications<a class="headerlink" href="#specifications" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>Screen Size</strong>: 10.1 inches</p></li>
+<li><p><strong>Display Type</strong>: IPS HD</p></li>
+<li><p><strong>Resolution</strong>: 1280 x 800 pixels</p></li>
+<li><p><strong>Touch Technology</strong>: 10-point capacitive touch</p></li>
+<li><p><strong>Viewing Angle</strong>: 178° wide view</p></li>
+<li><p><strong>Audio</strong>: Dual audio output</p></li>
+<li><p><strong>Dimensions</strong>: 255.4 x 167.4 x 39.4mm (L x W x H)</p></li>
+<li><p><strong>Power Supply</strong>:</p>
+<ul>
+<li><p><strong>Input</strong>: DC 12V / 5A</p></li>
+<li><p><strong>USB Output</strong>: Built-In 5.1V / 5A Type-C for Raspberry Pi 5</p></li>
+</ul>
+</li>
+<li><p><strong>Connectivity</strong>:</p>
+<ul>
+<li><p><strong>Video Input</strong>: Mini HDMI to HDMI cable included</p></li>
+<li><p><strong>Power Cables</strong>: Type-C power cable and DC adapter included</p></li>
+</ul>
+</li>
+<li><p><strong>Compatibility</strong>:</p>
+<ul>
+<li><p><strong>Raspberry Pi Models</strong>: Pi 5, Pi 4, Pi 3B+, Pi 3B, Pi Zero 2W, Pi 400</p></li>
+<li><p><strong>Other SBCs</strong>: Banana Pi, Libre Computer Board, Orange Pi</p></li>
+</ul>
+</li>
+<li><p><strong>Operating Systems Supported</strong>:</p>
+<ul>
+<li><p>Raspberry Pi OS</p></li>
+<li><p>Windows</p></li>
+<li><p>Ubuntu</p></li>
+<li><p>Chrome OS</p></li>
+<li><p>Android</p></li>
+<li><p>macOS</p></li>
+<li><p>Twister OS</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="hardware-overview">
+<h2>Hardware Overview<a class="headerlink" href="#hardware-overview" title="Permalink to this heading"></a></h2>
 <a class="reference internal image-reference" href="_images/hardware_back.png"><img alt="_images/hardware_back.png" class="align-center" src="_images/hardware_back.png" style="width: 600px;" /></a>
 <ul class="simple">
 <li><p><strong>Main Board</strong>: It is mounted on top to control the display.</p></li>
@@ -151,8 +200,9 @@
 <a class="reference internal image-reference" href="_images/hardware_buttons.png"><img alt="_images/hardware_buttons.png" class="align-center" src="_images/hardware_buttons.png" style="width: 500px;" /></a>
 <img alt="_images/hardware_buttons_func.png" class="align-center" src="_images/hardware_buttons_func.png" />
 <p><strong>Interfaces</strong></p>
-<p>On one side of the Driver Board there are ports of HDMI input, 12V power input, and 5V/3A USB power output and Speaker Port.</p>
+<p>On one side of the Driver Board there are ports of HDMI input, 12V power input, and 5V/5A USB power output and Speaker Port.</p>
 <a class="reference internal image-reference" href="_images/hardware_interfaces.png"><img alt="_images/hardware_interfaces.png" class="align-center" src="_images/hardware_interfaces.png" style="width: 400px;" /></a>
+</section>
 </section>
 
 
@@ -166,7 +216,7 @@
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; Copyright 2024, SunFounder.</p>
+    <p>&#169; Copyright 2025, SunFounder.</p>
   </div>
 
   Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a

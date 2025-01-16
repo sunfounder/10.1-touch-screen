@@ -15,6 +15,47 @@
 HARDWARE DESCRIPTION
 =======================
 
+Below is the dimension diagram for the TS-10 touchscreen.
+
+.. image:: img/ts10_size.png
+    :width: 700
+
+Specifications
+------------------------
+* **Screen Size**: 10.1 inches
+* **Display Type**: IPS HD
+* **Resolution**: 1280 x 800 pixels
+* **Touch Technology**: 10-point capacitive touch
+* **Viewing Angle**: 178° wide view
+* **Audio**: Dual audio output
+* **Dimensions**: 255.4 x 167.4 x 39.4mm (L x W x H)
+* **Power Supply**:
+
+  * **Input**: DC 12V / 5A
+  * **USB Output**: Built-In 5.1V / 5A Type-C for Raspberry Pi 5
+
+* **Connectivity**:
+
+  * **Video Input**: Mini HDMI to HDMI cable included
+  * **Power Cables**: Type-C power cable and DC adapter included
+
+* **Compatibility**:
+
+  * **Raspberry Pi Models**: Pi 5, Pi 4, Pi 3B+, Pi 3B, Pi Zero 2W, Pi 400
+  * **Other SBCs**: Banana Pi, Libre Computer Board, Orange Pi
+
+* **Operating Systems Supported**:
+
+  * Raspberry Pi OS
+  * Windows
+  * Ubuntu
+  * Chrome OS
+  * Android
+  * macOS
+  * Twister OS
+
+Hardware Overview
+------------------------
 
 .. image:: img/hardware_back.png
     :width: 600

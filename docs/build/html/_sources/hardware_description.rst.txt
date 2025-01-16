@@ -15,6 +15,47 @@
 HARDWARE DESCRIPTION
 =======================
 
+Below is the dimension diagram for the TS-10 touchscreen.
+
+.. image:: img/ts10_size.png
+    :width: 800
+
+Specifications
+------------------------
+* **Screen Size**: 10.1 inches
+* **Display Type**: IPS HD
+* **Resolution**: 1280 x 800 pixels
+* **Touch Technology**: 10-point capacitive touch
+* **Viewing Angle**: 178° wide view
+* **Audio**: Dual audio output
+* **Dimensions**: 255.4 x 167.4 x 39.4mm (L x W x H)
+* **Power Supply**:
+
+  * **Input**: DC 12V / 5A
+  * **USB Output**: Built-In 5.1V / 5A Type-C for Raspberry Pi 5
+
+* **Connectivity**:
+
+  * **Video Input**: Mini HDMI to HDMI cable included
+  * **Power Cables**: Type-C power cable and DC adapter included
+
+* **Compatibility**:
+
+  * **Raspberry Pi Models**: Pi 5, Pi 4, Pi 3B+, Pi 3B, Pi Zero 2W, Pi 400
+  * **Other SBCs**: Banana Pi, Libre Computer Board, Orange Pi
+
+* **Operating Systems Supported**:
+
+  * Raspberry Pi OS
+  * Windows
+  * Ubuntu
+  * Chrome OS
+  * Android
+  * macOS
+  * Twister OS
+
+Hardware Overview
+------------------------
 
 .. image:: img/hardware_back.png
     :width: 600
@@ -23,7 +64,6 @@ HARDWARE DESCRIPTION
 * **Main Board**: It is mounted on top to control the display.
 * **Control Board**: It is a cross slot structure with one side movable, so you can mount different size of control board.
 * **Touch Module**: This is the module used to let the display get the touch function, you need to connect it to the USB port of the control board through the USB cable provided by us.
-
 
 **Touch Module**
 
@@ -67,7 +107,7 @@ Buttons on the main board and their functions:
 
 **Interfaces**
 
-On one side of the Driver Board there are ports of HDMI input, 12V power input, and 5V/3A USB power output and Speaker Port. 
+On one side of the Driver Board there are ports of HDMI input, 12V power input, and 5V/5A USB power output and Speaker Port. 
 
 .. image:: img/hardware_interfaces.png
     :width: 400
